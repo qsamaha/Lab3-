@@ -15,7 +15,7 @@ public class Lab3 {
 		System.out.println(name + ", please enter an integer in the range of positive 1-100");
 		userNum = scan.nextInt();
 		
-		if (userNum <= 100 && userNum >= 0) {
+		if (userNum <= 100 && userNum >= 1) {
 		 
 		if (userNum % 2 == 0 && (userNum >= 2 && userNum <= 25)) {
 	         System.out.println("The number is even and less than 25.");
